@@ -10,8 +10,13 @@ A game in a final episode of [The Genius : Grand Final](https://en.wikipedia.org
 I use [this video](https://youtu.be/vFnTtf15ZtE), [this video](https://youtu.be/s0kCnFiZPN4) and [this video](https://youtu.be/x329VEJjjdU) for gather informations. All videos are from chnnels which is the official accont of tvN which is broadcast company of The Genius : Grand Final.  
 
 # About the Data
-First of all, Tensorflow must read a draft which I gather data on. For that, I used [Pandas](https://pandas.pydata.org/) to read my drafts. Also, the draft should be .csv file. That is the reason why I used Google Sheet to make .csv file that Tensorflow and Pandas can read the draft. You can see the datas at [this sheet](https://docs.google.com/spreadsheets/d/1zMR0-eyFT5Dln8N-7rrnY1rUEOE2V1K6vLw8oZPWs8o/edit?usp=sharing). 
+First of all, Tensorflow must read a draft which I gather data on. For that, I used [Pandas](https://pandas.pydata.org/) to read my drafts. Also, the draft should be .csv file. That is the reason why I used Google Sheet to make .csv file that Tensorflow and Pandas can read the draft. You can see the datas at [this sheet](https://docs.google.com/spreadsheets/d/1zMR0-eyFT5Dln8N-7rrnY1rUEOE2V1K6vLw8oZPWs8o/edit?usp=sharing). Also, since my laptop is not that good. So I used [Google Colab](https://colab.research.google.com/).
 
 # Round 1
 The text which I put a bold effect is the number in actual TV program. 
 You can see code in [here](https://colab.research.google.com/drive/1OVp6zCMFOJBSRk5vZ7xvCA71VMD0L9X8?usp=sharing) 
+
+# Result of Round 1
+![alt text](Images/TheGeniusWithAI_Round1_Result.png)
+
+It **success.** The answer formula of this question is (bigger number) * 2 + (smaller number). AI match the number with the aberration ±1. 
